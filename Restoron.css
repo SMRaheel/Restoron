@@ -1,0 +1,33 @@
+
+
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg); 
+    }
+    to {
+        transform: rotate(360deg); 
+    }
+}
+
+
+.rotating-image {
+    animation: rotate 30s linear infinite; 
+}
+
+.tab-class a {
+    text-decoration: none;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+
+.footer .btn-social i {
+    border-radius: 100px;
+}
+
+.btn {
+    border-radius: 100px;
+}
